@@ -35,13 +35,13 @@ $(document).ready(function () {
 
   function processImage(formData) {
     $.ajax({
-      url: "https://westeurope.api.cognitive.microsoft.com/customvision/v3.0/Prediction/57a290ce-ba19-459a-af93-f6fc73f4e609/classify/iterations/Iteration1/image",
+      url: "https://southcentralus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/02ee9160-3bb9-4772-b176-daf6443a9234/detect/iterations/Iteration1/image",
       type: "POST",
       data: formData,
       processData: false,
       contentType: false,
       headers: {
-        "Prediction-Key": "a96005bef1c34c4aa03d7481d4b4092b",
+        "Prediction-Key": "0a0d67101c5e4e8da1d791ae5abed1a3",
       },
 
       success: function (response) {
